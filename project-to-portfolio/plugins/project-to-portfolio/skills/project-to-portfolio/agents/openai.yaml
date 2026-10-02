@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project to Portfolio"
+  short_description: "Turn your project into an editable portfolio"
+  default_prompt: "Use $project-to-portfolio to turn my project into a portfolio."
