@@ -1,0 +1,32 @@
+{
+  "name": "project-to-portfolio",
+  "version": "1.0.0",
+  "description": "Turn a student project into a thoughtful portfolio with local bilingual intake, English storytelling, visual page reviews and editable outputs.",
+  "author": {"name": "Project to Portfolio"},
+  "keywords": ["portfolio", "student", "art", "design", "creative-technology"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Project to Portfolio",
+    "shortDescription": "Your work. A story worth showing.",
+    "longDescription": "Build a portfolio from the work you actually made. Fill a bilingual brief in chat or an offline form, turn your process into clear English copy, review page structure and visual direction, then create rich HTML spreads with optional native Figma conversion. Use your own Codex or ChatGPT account. Project files stay in your workspace; no external intake login, API key or server setup is required.",
+    "developerName": "Project to Portfolio",
+    "category": "Education",
+    "capabilities": ["Local project intake", "Portfolio generation", "Editable output"],
+    "defaultPrompt": [
+      "Use Project to Portfolio to turn my project into a portfolio. Recover what you can from my files, then ask only what is missing.",
+      "Open a local bilingual project intake form and help me complete it.",
+      "Convert my approved HTML portfolio into editable Figma using my connected account."
+    ],
+    "brandColor": "#6855E2",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  },
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/project-to-portfolio/SKILL.md",
+      "publication": {
+        "release_notes": "Initial local student edition with bilingual intake, source-based portfolio generation, explicit model/effort guidance and optional editable Figma."
+      }
+    }
+  }
+}
