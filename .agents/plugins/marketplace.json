@@ -1,0 +1,20 @@
+{
+  "name": "project-to-portfolio",
+  "interface": {
+    "displayName": "Project to Portfolio"
+  },
+  "plugins": [
+    {
+      "name": "project-to-portfolio",
+      "source": {
+        "source": "local",
+        "path": "./plugins/project-to-portfolio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education"
+    }
+  ]
+}
